@@ -1,5 +1,5 @@
 import React from 'react';
-import Directory from './directory_menu';
+import Directory from './DirectoryMenu';
 
 import styles from './HomePage.module.scss';
 
