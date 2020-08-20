@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/shpping-webapp-wayne/static/css/main.20d529ed.chunk.css",
-    "main.js": "/shpping-webapp-wayne/static/js/main.5145a83a.chunk.js",
-    "main.js.map": "/shpping-webapp-wayne/static/js/main.5145a83a.chunk.js.map",
-    "runtime-main.js": "/shpping-webapp-wayne/static/js/runtime-main.4fee8780.js",
-    "runtime-main.js.map": "/shpping-webapp-wayne/static/js/runtime-main.4fee8780.js.map",
-    "static/js/2.0aa82808.chunk.js": "/shpping-webapp-wayne/static/js/2.0aa82808.chunk.js",
-    "static/js/2.0aa82808.chunk.js.map": "/shpping-webapp-wayne/static/js/2.0aa82808.chunk.js.map",
-    "index.html": "/shpping-webapp-wayne/index.html",
-    "precache-manifest.e12fb8f322a4ea9d251e3504c9d081a7.js": "/shpping-webapp-wayne/precache-manifest.e12fb8f322a4ea9d251e3504c9d081a7.js",
-    "service-worker.js": "/shpping-webapp-wayne/service-worker.js",
-    "static/css/main.20d529ed.chunk.css.map": "/shpping-webapp-wayne/static/css/main.20d529ed.chunk.css.map",
-    "static/js/2.0aa82808.chunk.js.LICENSE.txt": "/shpping-webapp-wayne/static/js/2.0aa82808.chunk.js.LICENSE.txt",
-    "static/media/crown.ed28accb.svg": "/shpping-webapp-wayne/static/media/crown.ed28accb.svg"
+    "main.css": "/Udemy-React-Lessons-Practise/static/css/main.20d529ed.chunk.css",
+    "main.js": "/Udemy-React-Lessons-Practise/static/js/main.cf560486.chunk.js",
+    "main.js.map": "/Udemy-React-Lessons-Practise/static/js/main.cf560486.chunk.js.map",
+    "runtime-main.js": "/Udemy-React-Lessons-Practise/static/js/runtime-main.51027f89.js",
+    "runtime-main.js.map": "/Udemy-React-Lessons-Practise/static/js/runtime-main.51027f89.js.map",
+    "static/js/2.0aa82808.chunk.js": "/Udemy-React-Lessons-Practise/static/js/2.0aa82808.chunk.js",
+    "static/js/2.0aa82808.chunk.js.map": "/Udemy-React-Lessons-Practise/static/js/2.0aa82808.chunk.js.map",
+    "index.html": "/Udemy-React-Lessons-Practise/index.html",
+    "precache-manifest.25b2d360dde31693ccfcaf6bc377527f.js": "/Udemy-React-Lessons-Practise/precache-manifest.25b2d360dde31693ccfcaf6bc377527f.js",
+    "service-worker.js": "/Udemy-React-Lessons-Practise/service-worker.js",
+    "static/css/main.20d529ed.chunk.css.map": "/Udemy-React-Lessons-Practise/static/css/main.20d529ed.chunk.css.map",
+    "static/js/2.0aa82808.chunk.js.LICENSE.txt": "/Udemy-React-Lessons-Practise/static/js/2.0aa82808.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/Udemy-React-Lessons-Practise/static/media/crown.ed28accb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4fee8780.js",
+    "static/js/runtime-main.51027f89.js",
     "static/js/2.0aa82808.chunk.js",
     "static/css/main.20d529ed.chunk.css",
-    "static/js/main.5145a83a.chunk.js"
+    "static/js/main.cf560486.chunk.js"
   ]
 }
