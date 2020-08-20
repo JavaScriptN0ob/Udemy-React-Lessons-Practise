@@ -12,7 +12,11 @@ function FormInput({
 }) {
   return (
     <div className={styles.group}>
-      <input className={styles.form_input} onChange={handleChange} {...otherProps} />
+      <input 
+        className={styles.form_input} 
+        onChange={handleChange} 
+        {...otherProps}
+      />
       {
         label ? 
         (<label 
