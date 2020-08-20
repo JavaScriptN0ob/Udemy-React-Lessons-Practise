@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames/bind';
+import { withRouter } from 'react-router-dom';
 import styles from './Menu_item.module.scss';
 
 const cx = classNames.bind(styles);
@@ -8,6 +9,9 @@ function MenuItem({
   title,
   imageUrl,
   size,
+  history,
+  linkUrl,
+  match,
 }) {
   return (
     <div 
@@ -15,6 +19,7 @@ function MenuItem({
         menu_item: true,
         large: size === 'large',
       })}
+      onClick={() => history.push(`${match.url}${linkUrl}`)}
     >
       <div 
         className={styles.background_image}
@@ -30,4 +35,4 @@ function MenuItem({
   )
 }
 
-export default MenuItem;
+export default withRouter(MenuItem);
