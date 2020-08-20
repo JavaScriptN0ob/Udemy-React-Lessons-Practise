@@ -6,6 +6,7 @@ import './App.css';
 import HomePage from './components/Homepage';
 import ShopPage from './components/ShopPage';
 import Header from './components/Header'
+import SignInAndSignOut from './components/Header/SignInAndSignOut';
 
 // function HatsPage(history) {
 //   //  origin ma
@@ -24,6 +25,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/shop" component={ShopPage} />
+        <Route exact path="/signin" component={SignInAndSignOut} />
       </Switch>
     </div>
   );
