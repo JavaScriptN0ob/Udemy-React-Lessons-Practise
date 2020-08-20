@@ -5,6 +5,7 @@ import './App.css';
 
 import HomePage from './components/Homepage';
 import ShopPage from './components/ShopPage';
+import Header from './components/Header'
 
 // function HatsPage(history) {
 //   //  origin ma
@@ -19,9 +20,10 @@ import ShopPage from './components/ShopPage';
 function App() {
   return (
     <div>
+      <Header />
       <Switch>
-        <Route exact path='/' component={HomePage} />
-        <Route exact path='/shop' component={ShopPage} />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/shop" component={ShopPage} />
       </Switch>
     </div>
   );
