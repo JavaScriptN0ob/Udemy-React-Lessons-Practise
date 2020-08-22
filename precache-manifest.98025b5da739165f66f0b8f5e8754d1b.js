@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19d4251526872c5ff5b68aef4ab719e9",
+    "revision": "aec2a00b57d479dbe24772ff268707b5",
     "url": "/Udemy-React-Lessons-Practise/index.html"
   },
   {
-    "revision": "8301609d6901f17f0b00",
+    "revision": "2bd48f895b78ff9e1ab8",
     "url": "/Udemy-React-Lessons-Practise/static/css/main.430e7d08.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Udemy-React-Lessons-Practise/static/js/2.0cf77ff4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8301609d6901f17f0b00",
-    "url": "/Udemy-React-Lessons-Practise/static/js/main.ac1fd3d7.chunk.js"
+    "revision": "2bd48f895b78ff9e1ab8",
+    "url": "/Udemy-React-Lessons-Practise/static/js/main.9853b55a.chunk.js"
   },
   {
     "revision": "9f80ace66616a74eb7bb",
