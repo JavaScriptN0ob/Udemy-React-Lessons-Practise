@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Udemy-React-Lessons-Practise/static/css/main.20d529ed.chunk.css",
-    "main.js": "/Udemy-React-Lessons-Practise/static/js/main.cf560486.chunk.js",
-    "main.js.map": "/Udemy-React-Lessons-Practise/static/js/main.cf560486.chunk.js.map",
+    "main.css": "/Udemy-React-Lessons-Practise/static/css/main.430e7d08.chunk.css",
+    "main.js": "/Udemy-React-Lessons-Practise/static/js/main.06cdd4e8.chunk.js",
+    "main.js.map": "/Udemy-React-Lessons-Practise/static/js/main.06cdd4e8.chunk.js.map",
     "runtime-main.js": "/Udemy-React-Lessons-Practise/static/js/runtime-main.51027f89.js",
     "runtime-main.js.map": "/Udemy-React-Lessons-Practise/static/js/runtime-main.51027f89.js.map",
-    "static/js/2.0aa82808.chunk.js": "/Udemy-React-Lessons-Practise/static/js/2.0aa82808.chunk.js",
-    "static/js/2.0aa82808.chunk.js.map": "/Udemy-React-Lessons-Practise/static/js/2.0aa82808.chunk.js.map",
+    "static/js/2.682e86e9.chunk.js": "/Udemy-React-Lessons-Practise/static/js/2.682e86e9.chunk.js",
+    "static/js/2.682e86e9.chunk.js.map": "/Udemy-React-Lessons-Practise/static/js/2.682e86e9.chunk.js.map",
     "index.html": "/Udemy-React-Lessons-Practise/index.html",
-    "precache-manifest.25b2d360dde31693ccfcaf6bc377527f.js": "/Udemy-React-Lessons-Practise/precache-manifest.25b2d360dde31693ccfcaf6bc377527f.js",
+    "precache-manifest.6c16899b6701b47ca240b8503f18278f.js": "/Udemy-React-Lessons-Practise/precache-manifest.6c16899b6701b47ca240b8503f18278f.js",
     "service-worker.js": "/Udemy-React-Lessons-Practise/service-worker.js",
-    "static/css/main.20d529ed.chunk.css.map": "/Udemy-React-Lessons-Practise/static/css/main.20d529ed.chunk.css.map",
-    "static/js/2.0aa82808.chunk.js.LICENSE.txt": "/Udemy-React-Lessons-Practise/static/js/2.0aa82808.chunk.js.LICENSE.txt",
+    "static/css/main.430e7d08.chunk.css.map": "/Udemy-React-Lessons-Practise/static/css/main.430e7d08.chunk.css.map",
+    "static/js/2.682e86e9.chunk.js.LICENSE.txt": "/Udemy-React-Lessons-Practise/static/js/2.682e86e9.chunk.js.LICENSE.txt",
     "static/media/crown.ed28accb.svg": "/Udemy-React-Lessons-Practise/static/media/crown.ed28accb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.51027f89.js",
-    "static/js/2.0aa82808.chunk.js",
-    "static/css/main.20d529ed.chunk.css",
-    "static/js/main.cf560486.chunk.js"
+    "static/js/2.682e86e9.chunk.js",
+    "static/css/main.430e7d08.chunk.css",
+    "static/js/main.06cdd4e8.chunk.js"
   ]
 }
