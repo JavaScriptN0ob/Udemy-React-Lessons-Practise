@@ -1,7 +1,6 @@
 import React from 'react';
 
 import styles from './CollectionItem.module.scss';
-import CollectionPreview from '../CollectionPreview';
 
 function CollectionItem({
   id,
