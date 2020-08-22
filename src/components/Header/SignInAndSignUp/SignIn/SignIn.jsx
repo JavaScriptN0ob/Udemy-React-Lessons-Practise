@@ -2,8 +2,8 @@ import React from 'react';
 
 import styles from './SignIn.module.scss';
 
-import FormInput from '../FormInput';
-import CustomButton from '../CustomButton';
+import FormInput from '../../../FormInput';
+import CustomButton from '../../../CustomButton';
 import { signInWithGoogle } from '../../../../firebase/utils/firebase';
 
 

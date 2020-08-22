@@ -6,18 +6,8 @@ import './App.css';
 import HomePage from './components/Homepage';
 import ShopPage from './components/ShopPage';
 import Header from './components/Header'
-import SignInAndSignOut from './components/Header/SignInAndSignOut';
-import { auth } from './firebase/utils/firebase';
-
-// function HatsPage(history) {
-//   //  origin ma
-//   return (
-//     <div>
-//       <h1>HATS PAGE</h1>
-//       <button>Back to Home</button>
-//     </div>
-//   )
-// }
+import SignInAndSignUp from './components/Header/SignInAndSignUp';
+import { auth, createUserProfileDocument } from './firebase/utils/firebase';
 
 class App extends React.Component {
   constructor() {
@@ -31,12 +21,21 @@ class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
-      this.setState({
-        currentUser: user,
-      });
+    this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
+      if (userAuth) {
+        const userRef = await createUserProfileDocument(userAuth);
 
-      console.log('currentUser:', user);
+        userRef.onSnapshot(snapshot => {
+          this.setState({
+            currentUser: {
+              id: snapshot.id,
+              ...snapshot.data(),
+            }
+          }, () => console.log(619, this.state))
+        });
+      } else {
+        this.setState({ currentUser: userAuth })
+      }
     })
   }
 
@@ -51,7 +50,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/shop" component={ShopPage} />
-          <Route exact path="/signin" component={SignInAndSignOut} />
+          <Route exact path="/signin" component={SignInAndSignUp} />
         </Switch>
       </div>
     )
