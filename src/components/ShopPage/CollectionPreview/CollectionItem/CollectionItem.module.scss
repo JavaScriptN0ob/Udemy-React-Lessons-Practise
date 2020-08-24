@@ -4,6 +4,7 @@
   flex-direction: column;
   height: 350px;
   align-items: center;
+  position: relative;
 
   .image {
     width: 100%;
@@ -11,6 +12,59 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
+  }
+
+  .custom_button {
+    min-width: 165px;
+    width: auto;
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    border: none;
+    border: 1px solid black;
+    cursor: pointer;
+    justify-content: center;
+    width: 80%;
+    opacity: 0.7;
+    position: absolute;
+    top: 255px;
+    display: none;
+  
+    &:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+
+    &.inverted {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+  
+      &:hover {
+        background-color: black;
+        color: white;
+        border: none;
+      }
+    }
+  }
+
+  &:hover {
+    .image {
+      opacity: 0.8;
+    }
+
+    .custom_button {
+      opacity: 0.85;
+      display: flex;
+    }
   }
 
   .collection_footer {
@@ -30,3 +84,4 @@
     }
   }
 }
+

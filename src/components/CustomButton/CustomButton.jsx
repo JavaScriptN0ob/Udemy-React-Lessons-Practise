@@ -8,12 +8,14 @@ const cx = classNames.bind(styles);
 function CustomButton({
   children,
   isGoogleSignIn,
+  inverted,
   ...otherProps
 }) {
   return (
     <button 
       className={cx({
         custom_button: true,
+        inverted: inverted,
         google_sign_in: isGoogleSignIn,
       })} 
       {...otherProps}
