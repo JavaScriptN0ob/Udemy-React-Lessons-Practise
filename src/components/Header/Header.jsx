@@ -37,8 +37,7 @@ function Header({ currentUser, hidden }) {
         ) : (
           <CartDropdown />
         )
-      }
-      
+      }  
     </div>
   )
 }

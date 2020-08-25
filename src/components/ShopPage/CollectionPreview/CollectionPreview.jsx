@@ -18,13 +18,12 @@ function CollectionPreview({
 
         {items
           .filter((item, index) => index < 4)
-          .map(({
-            id,
-            ...otherItemProps
-          }) => (
+          .map((
+            item
+          ) => (
             <CollectionItem 
-              key={id} 
-              {...otherItemProps}
+              key={item.id} 
+              item={item}
             />
           ))}
       </div>
