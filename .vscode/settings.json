@@ -4,6 +4,7 @@
     "accumalated quantity",
     "firestore",
     "middlewares",
+    "persistor",
     "quantity",
     "signin",
     "womens"
