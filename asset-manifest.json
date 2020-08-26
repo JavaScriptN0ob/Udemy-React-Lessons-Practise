@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/Udemy-React-Lessons-Practise/static/css/main.430e7d08.chunk.css",
-    "main.js": "/Udemy-React-Lessons-Practise/static/js/main.9853b55a.chunk.js",
-    "main.js.map": "/Udemy-React-Lessons-Practise/static/js/main.9853b55a.chunk.js.map",
-    "runtime-main.js": "/Udemy-React-Lessons-Practise/static/js/runtime-main.51027f89.js",
-    "runtime-main.js.map": "/Udemy-React-Lessons-Practise/static/js/runtime-main.51027f89.js.map",
-    "static/js/2.0cf77ff4.chunk.js": "/Udemy-React-Lessons-Practise/static/js/2.0cf77ff4.chunk.js",
-    "static/js/2.0cf77ff4.chunk.js.map": "/Udemy-React-Lessons-Practise/static/js/2.0cf77ff4.chunk.js.map",
-    "index.html": "/Udemy-React-Lessons-Practise/index.html",
-    "precache-manifest.98025b5da739165f66f0b8f5e8754d1b.js": "/Udemy-React-Lessons-Practise/precache-manifest.98025b5da739165f66f0b8f5e8754d1b.js",
-    "service-worker.js": "/Udemy-React-Lessons-Practise/service-worker.js",
-    "static/css/main.430e7d08.chunk.css.map": "/Udemy-React-Lessons-Practise/static/css/main.430e7d08.chunk.css.map",
-    "static/js/2.0cf77ff4.chunk.js.LICENSE.txt": "/Udemy-React-Lessons-Practise/static/js/2.0cf77ff4.chunk.js.LICENSE.txt",
-    "static/media/crown.ed28accb.svg": "/Udemy-React-Lessons-Practise/static/media/crown.ed28accb.svg"
+    "main.css": "/Wayne-Ecommerce-webApp/static/css/main.e01b2e7e.chunk.css",
+    "main.js": "/Wayne-Ecommerce-webApp/static/js/main.611530f2.chunk.js",
+    "main.js.map": "/Wayne-Ecommerce-webApp/static/js/main.611530f2.chunk.js.map",
+    "runtime-main.js": "/Wayne-Ecommerce-webApp/static/js/runtime-main.90887331.js",
+    "runtime-main.js.map": "/Wayne-Ecommerce-webApp/static/js/runtime-main.90887331.js.map",
+    "static/js/2.0408706d.chunk.js": "/Wayne-Ecommerce-webApp/static/js/2.0408706d.chunk.js",
+    "static/js/2.0408706d.chunk.js.map": "/Wayne-Ecommerce-webApp/static/js/2.0408706d.chunk.js.map",
+    "index.html": "/Wayne-Ecommerce-webApp/index.html",
+    "precache-manifest.0777323bb76330fad08d5dcfd8764d50.js": "/Wayne-Ecommerce-webApp/precache-manifest.0777323bb76330fad08d5dcfd8764d50.js",
+    "service-worker.js": "/Wayne-Ecommerce-webApp/service-worker.js",
+    "static/css/main.e01b2e7e.chunk.css.map": "/Wayne-Ecommerce-webApp/static/css/main.e01b2e7e.chunk.css.map",
+    "static/js/2.0408706d.chunk.js.LICENSE.txt": "/Wayne-Ecommerce-webApp/static/js/2.0408706d.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/Wayne-Ecommerce-webApp/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/Wayne-Ecommerce-webApp/static/media/shopping-bag.30f07071.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.51027f89.js",
-    "static/js/2.0cf77ff4.chunk.js",
-    "static/css/main.430e7d08.chunk.css",
-    "static/js/main.9853b55a.chunk.js"
+    "static/js/runtime-main.90887331.js",
+    "static/js/2.0408706d.chunk.js",
+    "static/css/main.e01b2e7e.chunk.css",
+    "static/js/main.611530f2.chunk.js"
   ]
 }
