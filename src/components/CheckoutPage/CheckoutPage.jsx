@@ -36,7 +36,6 @@ function CheckoutPage ({ cartItems, total, }) {
           />
         )
       }
-
       <div className={styles.total}>
         <span>TOTAL: ${total}</span>
       </div>
