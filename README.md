@@ -1,3 +1,5 @@
+All steps are followed Udemy YihuaZhang's React tutorial. All codes are done by myself, more updates will coming in follow days.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
